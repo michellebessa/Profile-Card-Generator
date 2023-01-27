@@ -1,6 +1,8 @@
 .filters {
   background: white;
   width: 100%;
+  padding-left: 0px;
+  margin-left: 15%;
 }
 .filters li {
   display: inline-block;
@@ -22,7 +24,7 @@
   position: relative;
   width: 300px;
   height: 350px;
-  margin: 50px auto;
+  margin: 80px auto;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);

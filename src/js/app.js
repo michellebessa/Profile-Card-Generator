@@ -24,7 +24,7 @@ function render(variables = {}) {
             <li><a href="https://github.com/${
               variables.github
             }"><i class="fab fa-github"></i>
-            <li><a href="https://linkedin.com/${
+            <li><a href="https://linkedin.com/in/${
               variables.linkedin
             }"><i class="fab fa-linkedin"></i>
             <li><a href="https://instagram.com/${
@@ -43,14 +43,16 @@ window.onload = function() {
     // if includeCover is true the algorithm should
     includeCover: true,
     // this is the url of the image that will used as background for the profile cover
-    background: "https://images.unsplash.com/photo-1511974035430-5de47d3b95da",
+    background:
+      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/alpe-di-siusi-sunrise-with-sassolungo-or-langkofel-royalty-free-image-1623254127.jpg",
     // this is the url for the profile avatar
-    avatarURL: "https://randomuser.me/api/portraits/women/42.jpg",
+    avatarURL:
+      "https://www.highmowingseeds.com/media/catalog/product/cache/6cbdb003cf4aae33b9be8e6a6cf3d7ad/7/1/7104-1.jpg",
     // social media bar position (left or right)
     socialMediaPosition: "position-left",
     // social media usernames
     twitter: null,
-    github: "alesanchezr",
+    github: null,
     linkedin: null,
     instagram: null,
     name: null,
